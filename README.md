@@ -1,2 +1,4 @@
 # bioSite
-bioSite for class.
+## Contributors
+* Caleb Lewandowski
+* Chris Soriano
