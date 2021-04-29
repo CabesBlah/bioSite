@@ -1,0 +1,106 @@
+/*
+Caleb Lewandowski
+April 28, 2021
+bioSite
+Last Updated: April 28, 2021
+*/
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+p a {
+    text-decoration-line: none;
+    color: #72f227;
+}
+
+p a:hover {
+    text-decoration-line: underline;
+    color: #f2EE27;
+}
+
+p a:visited {
+    text-decoration-line: none;
+    color: #72f227;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+    background-color: #f2EE27;
+}
+
+a:hover {
+    text-decoration-line: none;
+    background-color: #72f227;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: 300;
+}
+
+header {
+    text-align: center;
+}
+
+header a {
+    background-color: white;
+}
+
+header a:hover {
+    background-color: white;
+}
+
+#navbar {
+    background-color: #72f227;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#navbar a {
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#side-left {
+    float: left;
+    width: 25%;
+}
+
+#container {
+    float: left;
+    width: 50%;
+    word-wrap: normal;
+}
+
+#side-right {
+    float: right;
+    width: 25%;
+}
+
+.float-right {
+    float: right;
+    width: 25%;
+}
