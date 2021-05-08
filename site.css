@@ -2,7 +2,7 @@
 Caleb Lewandowski
 April 28, 2021
 bioSite
-Last Updated: May 7, 2021
+Last Updated: May 8, 2021
 */
 
 * {
@@ -92,18 +92,19 @@ footer {
     background-color: #72f227;
     width: 100%;
     bottom: 0;
-    position: absolute;
-    height: 4%;
+    position: fixed;
     margin-top: .5%;
     margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #navbar {
     background-color: #72f227;
     text-align: center;
-    height: 4%;
     width: 100%;
     margin-bottom: .5%;
+    vertical-align: middle;
 }
 
 #navbar a {
@@ -113,8 +114,9 @@ footer {
     display: inline-block;
     text-align: center;
     font-weight: 700;
-    height: 100%;
     width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #navbar a:hover {
