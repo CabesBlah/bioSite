@@ -2,7 +2,7 @@
 Caleb Lewandowski
 April 28, 2021
 bioSite
-Last Updated: May 8, 2021
+Last Updated: May 12, 2021
 */
 
 * {
@@ -25,33 +25,32 @@ p {
 }
 
 p a {
-    text-decoration-line: none;
-    color: #72f227;
+    text-decoration-line: underline;
+    color: #808080;
 }
 
 p a:hover {
-    text-decoration-line: underline;
-    color: #f2EE27;
+    text-decoration-line: none;
+    color: #808080;
 }
 
 p a:visited {
     text-decoration-line: none;
-    color: #f2EE27;
 }
 
 a {
-    text-decoration-line: none;
-    color: #f2EE27;
+    text-decoration-line: underline;
+    color: #808080;
 }
 
 a:hover {
     text-decoration-line: none;
-    color: #72f227;
+    color: #808080;
+    
 }
 
 a:visited {
     text-decoration-line: none;
-    color: #72f227;
 }
 
 figure {
@@ -76,16 +75,19 @@ header {
 header a {
     color: black;
     background-color: white;
+    text-decoration-line: none;
 }
 
 header a:hover {
     color: black;
     background-color: white;
+    text-decoration-line: none;
 }
 
 header a:visited {
     color: black;
     background-color: white;
+    text-decoration-line: none;
 }
 
 footer {
@@ -110,7 +112,7 @@ footer {
 #navbar a {
     text-decoration-line: none;
     color: black;
-    background-color: #f2EE27;
+    background-color: #ffff00;
     display: inline-block;
     text-align: center;
     font-weight: 700;
@@ -121,7 +123,7 @@ footer {
 
 #navbar a:hover {
     text-decoration-line: none;
-    background-color: #72f227;
+    background-color: #cccc00;
 }
 
 #side-left {
